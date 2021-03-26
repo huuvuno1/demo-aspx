@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common.master.cs" Inherits="demooo.Common" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <h1>Day la header</h1>
+
+        <asp:ContentPlaceHolder ID="bodyCommon" runat="server">
+            
+        </asp:ContentPlaceHolder>
+
+        <h1>Day la footer</h1>
+</body>
+</html>
